@@ -13,6 +13,10 @@ print(average_grades)
 
 #Question 1 Task 3
 
+for grade in grades:
+    if grade < 80:
+        grades[grades.index(grade)]="Failed"  #Changed to for loop and commented out previous try. 
+'''
 if grades[-1] < 80:
     grades[-1] = "Failed"
 if grades[-2] < 80:
@@ -33,5 +37,5 @@ if grades[-9] < 80:
     grades[-9] = "Failed"  
 if grades[-10] < 80:
     grades[-10] = "Failed"  
-
+'''
 print(grades)
